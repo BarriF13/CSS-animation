@@ -8,13 +8,16 @@ body{
   position: relative;
   animation-name: myanimation;
   animation-duration: 6s;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate-reverse; */
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes myanimation {
   0% { background-color: white;left: 0px; top: 0px; border-radius: 0 0 0 0;}
-  25% { background-color: red;left: 300px; top:0px; border-radius: 0 50% 0 0;}
-  50%{ background-color: rgb(23, 58, 23);left:300px; top: 300px;  border-radius: 50% 50% 0 0;}
+  25% { background-color: rgb(223, 45, 45);left: 300px; top:0px; border-radius: 0 50% 0 0;}
+  50%{ background-color: rgb(118, 189, 118);left:300px; top: 300px;  border-radius: 50% 50% 0 0;}
   75% { background-color: rgb(101, 89, 209);left:0px; top: 300px;  border-radius: 50% 50% 50% 0;}
   100%{ background-color: white;left:0px; top:0px; border-radius: 50%;}
 }
