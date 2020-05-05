@@ -9,15 +9,23 @@ body{
   animation-name: myanimation;
   animation-duration: 6s;
   animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   /* animation-delay: 2s; */
   /* animation-direction: alternate-reverse; */
-  animation-timing-function: ease-in-out;
+  /* animation-timing-function: ease-in-out; */
 }
-
+/* 
 @keyframes myanimation {
   0% { background-color: white;left: 0px; top: 0px; border-radius: 0 0 0 0;}
   25% { background-color: rgb(223, 45, 45);left: 300px; top:0px; border-radius: 0 50% 0 0;}
   50%{ background-color: rgb(118, 189, 118);left:300px; top: 300px;  border-radius: 50% 50% 0 0;}
   75% { background-color: rgb(101, 89, 209);left:0px; top: 300px;  border-radius: 50% 50% 50% 0;}
   100%{ background-color: white;left:0px; top:0px; border-radius: 50%;}
+} */
+@keyframes myanimation {
+  0% { background-color: rgb(248, 206, 115); border-radius: 0 0 0 0;}
+  25% { background-color: rgb(223, 45, 45); border-radius: 0 50% 0 0;}
+  50%{ background-color: rgb(118, 189, 118); border-radius: 50% 50% 0 0;}
+  75% { background-color: rgb(101, 89, 209); border-radius: 50% 50% 50% 0;}
+  100%{ background-color: rgb(161, 228, 217); border-radius: 50%;}
 }
