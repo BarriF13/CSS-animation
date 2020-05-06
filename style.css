@@ -1,14 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab:700');
-
-body{
+body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   color: #ffffff;
-  background: url(./Amazonic0.jpg) #0099cc no-repeat right bottom;
+  background: url(./Amazonic0.jpg) #ecba6e no-repeat ;
   margin: 0;
   padding: 0;
-
+}
+#container {
+  width: 90%;
+  margin: 0 auto; padding-top: 50%;
+  border:1px dotted rgb(105, 104, 104);
+  background: repeating-linear-gradient(to bottom right, rgb(158, 74, 59), blue 10%);
 }
 header {
+  background-color: rgb(158, 74, 59);
+  padding: 20px 0 20px 35px;
+}
+
+header h1 {
   font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 0 0 -3px 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+article {
+  padding: 0 0 50px 90px;
+}
+
+.source {
+  font-size: 20em;
+  font-style: italic;
+  margin: 25px 0 0 75px;
+}
+
+ol.restaurant {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  list-style-type: none;
+}
+
+ol.restaurant li {
+  margin: 0;
+  position: relative;
+  color: #df9b4e;
+  padding: 20px 0 0 70px;
+  counter-increment: myCounter;
+}
+ol.restaurant li::before{
+  content: counter(myCounter, decimal-leading-zero);
+  display: inline-block;
+  padding: 0px;
+  font-size: 5.3em;
+  text-align: right;
+  font-family: 'Roboto Slab', serif;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+}
+
+
+ol.restaurant li em {
+  display: block;
+  letter-spacing: .2em;
+  font-size: .9em;
+  text-transform: uppercase;
+  color: #fff;
+ margin: 0 0 -5px 0;
+}
+ol.restaurant li strong {
+  display: block;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
+ margin: 0 0 -5px 0;
 }
