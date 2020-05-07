@@ -3,7 +3,7 @@
 font-family: 'Abel', sans-serif; */
 html {
   /* height: 100%; */
-  background: url(lady.jpg) no-repeat center bottom fixed;
+  background: url(lady.jpg) no-repeat center top fixed;
   background-size: cover;
 }
 body {
@@ -13,10 +13,12 @@ body {
   font-family: "Abel", sans-serif;
 }
 article {
+  font-size: 1.1em;
   margin: 50px 50px;
   padding: 20px 45px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  text-shadow:1px 1px 1px #f185e3;
   border-radius: 43px;
   border: 2px solid rgba(255, 255, 255, 1);
 }
