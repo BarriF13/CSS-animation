@@ -65,6 +65,7 @@ aside p{
 aside p em {
   color:rgb(255, 255, 255, .5)
 }
+/* button style */
 aside a{
   display: inline-block;
   background-color: #6ecff6;
@@ -81,7 +82,11 @@ aside a{
 
 }
 aside a::after {
-  content: '>>'; padding-left: 10px;
+  content: '\00BB'; padding-left: 7px;
+}
+aside a.btn:hover {
+  color: #6ecff6;
+  background-color: darkblue ;
 }
 @media screen and (max-width:540px){
   article{ padding-right: 25px;}
