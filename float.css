@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body{
+  margin: 0; padding:0; background-color: rgb(240, 233, 213) ; font-family: lato; font-size: 16px; line-height: 1.3em;color: saddlebrown;
+}
+h2 {font-size: 1.4em; margin: 0 0  .5em 0; clear:left;}
+h3 {font-size: 1.4em; margin: 0 0  .5em 0; }
+p { margin: 0 0 1em 0;}
+header { 
+  margin: 0; background: #decaa0 url(khatia.jpg) no-repeat 0 0 ;
+  min-height: 55px; padding: 30px 0 300px 0;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8em; line-height: 40px; color: rgb(129, 88, 12);
+  font-weight: 400; padding: 10px 20px 20px 50px;
+  background-color: rgba(111,64,0,0.75);
+}
+figcaption{
+  font-size: .8em; 
+  line-height: 1.2em;
+}
+main { padding: 30px;}
+aside p {margin-bottom: 0}
+
+figure {
+  width: 130px;
+  margin: 5px 24px 12px 0;
+  float: left;
+}
+article{
+  margin-bottom: 30px;
+  width: 57%;
+  float: left;
+}
+aside {
+  margin: 0 0 0 8%;
+  padding-left: 3%;
+  border-left: 4px solid rgba(111,64,0,0.3);
+  /* background-color: rgb(240, 212, 172); */
+  width: 30%;
+  float: left;
+}
+@media screen and (max-width: 600px) {
+article { width: auto; float: none;}
+aside { width: auto; float: none; margin: 35px 0;}
+}  
