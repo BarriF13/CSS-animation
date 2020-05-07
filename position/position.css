@@ -84,10 +84,46 @@ aside a{
 aside a::after {
   content: '\00BB'; padding-left: 7px;
 }
+
 aside a.btn:hover {
   color: #6ecff6;
   background-color: darkblue ;
 }
+blockquote{
+  width: 75%;
+  margin: 50px auto 80px auto;
+  color: rgb(94, 83, 50);
+  font-size: 1.3em;
+  position: relative;
+}
+blockquote::before{
+  content: '\201c';
+  font-size: 4em;
+  position: absolute;
+  left: -30px;
+  top:-50px;
+  color: rgba(245, 240, 180, 0.568);
+}
+blockquote::after{
+  content: '\201d';
+  font-size: 4em;
+  position: absolute;
+  /* right: -30px; */
+  bottom:-60px;
+  color: rgba(245, 240, 180, 0.568);
+}
+blockquote cite{
+  color: rgba(146, 143, 108, 1);
+  display: block;
+  font-size: .7em;
+position: absolute;
+  bottom: -2.5em;
+}
+blockquote cite::before{
+  content: '\2014';
+  padding-right: 5px;
+}
+
 @media screen and (max-width:540px){
   article{ padding-right: 25px;}
   aside { position: relative; top: auto; right:auto;}
