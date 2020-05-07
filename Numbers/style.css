@@ -67,7 +67,7 @@ ol.restaurant li {
   position: relative;
   font-size: 1.2em;
   color: #ece5dd;
-  
+  text-shadow: 1px 1px 1px black;
   padding: 20px 0 0 70px;
   counter-increment: myCounter;
 }
