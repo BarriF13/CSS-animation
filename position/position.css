@@ -135,7 +135,8 @@ blockquote cite::before{
     color: rgb(58, 58, 58);
     font-family: 'Open Sans', sans-serif;
     background: url(./argentinT.jpg) no-repeat center bottom; 
-    background-size: contain;
+    background-size: cover;
+    background-color: black;
   }
 
 }
