@@ -128,5 +128,14 @@ blockquote cite::before{
   article{ padding-right: 25px;}
   aside { position: relative; top: auto; right:auto;}
   aside a { position: static;}
+  body{
+    margin: 0;
+    padding:10px 25px 25px 25px;
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+    font-family: 'Open Sans', sans-serif;
+    background: url(./argentinT.jpg) no-repeat center bottom; 
+    background-size: contain;
+  }
 
 }
