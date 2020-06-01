@@ -10,7 +10,7 @@ html {
 body {
   font-size: 18px;
   line-height: 2em;
-  background: #e5e5e5 url(./css.jpeg) no-repeat 0 top;
+  background: #e5e5e5 url(./css.jpeg)no-repeat 0 top;
   background-size: cover;
   color: #222;
 }
@@ -62,4 +62,16 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+a.barriLink{
+  color: rgb(223, 223, 223);
+  border: none;
+
+}
+@media (max-width: 480px) {
+  body {
+      background:#231a13 url(./css.jpeg) no-repeat ;
+      width: 90%;
+   
+  }
 }
