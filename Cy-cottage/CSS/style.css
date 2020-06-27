@@ -1,0 +1,51 @@
+/* Reset default*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Main style*/
+body{
+font-family: 'Lato', sans-serif;
+
+}
+a {
+  color: rgb(47, 192, 192);
+  text-decoration: none ;
+}
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+p{
+  margin: 10px 0;
+}
+
+/* Navbar style*/
+#navbar{
+  background-color: rgb(27, 240, 229);
+  color: #fff;
+  overflow: auto;
+
+}
+#navbar a{
+  color: #fff;
+
+}
+#navbar img {
+  width: 150px;
+  margin: 5px;
+  padding: 7px;
+  background-color: #fff;
+  float: left;
+  border-radius: 5px;
+}
+#navbar ul {
+  margin-top: 5px;
+  list-style: none;
+  float:right;
+}
+
