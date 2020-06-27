@@ -23,7 +23,13 @@ h1, h2, h3 {
 p{
   margin: 10px 0;
 }
-
+/* Utilities*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+overflow: auto;
+padding:0 20px;
+}
 /* Navbar style*/
 #navbar{
   background-color: rgb(27, 240, 229);
@@ -37,15 +43,32 @@ p{
 }
 #navbar img {
   width: 150px;
-  margin: 5px;
-  padding: 7px;
+  margin-left: 20px;
+  margin-top: 2px;
+  padding: 3px;
   background-color: #fff;
   float: left;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 #navbar ul {
-  margin-top: 5px;
+  margin-top: 0px;
   list-style: none;
   float:right;
 }
-
+#navbar ul li{
+  float: left;
+  }
+#navbar ul li a{
+ display: block;
+ padding: 20px;
+ text-align: center;
+ font-weight: 600;
+ font-size: 18px;
+ cursor: pointer;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current
+{
+  background: rgb(178, 243, 243);
+  color: rgb(231, 255, 124);
+}
