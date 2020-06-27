@@ -33,7 +33,6 @@ padding:0 20px;
 .text-primary {
   color: rgb(47, 192, 192);
   
- 
 }
 .lead {
   font-size: 24px;
@@ -53,6 +52,19 @@ padding:0 20px;
 .btn:hover{
   background: rgb(178, 243, 243);
   color: rgb(231, 255, 124);
+}
+.btn-dark {
+  background-color:  rgb(2, 133, 133);
+  color: rgb(247, 247, 247);
+}
+.bg-light{
+  background: rgb(205, 221, 221);
+  color: rgb(97, 95, 95);
+}
+.bg-primary{
+  background: rgb(47, 192, 192);
+  color: rgb(231, 255, 124);
+
 }
 
 
@@ -116,4 +128,25 @@ padding:0 20px;
 .showcase-content p{
   padding-bottom: 20px;
   line-height: 1.7em;
+
+}/* home */
+#home-info{
+  height: 400px;
+}
+#home-info .info-img{
+  float:left;
+  width: 50%;
+ background: url('../img/home.png') no-repeat;
+ min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+ text-align: center;
+ padding: 50px 30px;
+ overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
