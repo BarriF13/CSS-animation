@@ -30,6 +30,32 @@ p{
 overflow: auto;
 padding:0 20px;
 }
+.text-primary {
+  color: rgb(47, 192, 192);
+  
+ 
+}
+.lead {
+  font-size: 24px;
+  text-shadow: 2px 2px  black;
+}
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 20px;
+  background-color:  rgb(47, 192, 192);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  
+}
+.btn:hover{
+  background: rgb(178, 243, 243);
+  color: rgb(231, 255, 124);
+}
+
+
 /* Navbar style*/
 #navbar{
   background-color: rgb(27, 240, 229);
@@ -71,4 +97,23 @@ padding:0 20px;
 {
   background: rgb(178, 243, 243);
   color: rgb(231, 255, 124);
+}
+/* Showcase*/
+#showcase{
+  background: url('../img/mainimg.png') no-repeat center center/cover ;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+.showcase-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+.showcase-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
 }
