@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+}
+body{
+  font-family: 'Lato', sans-serif;
+
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0.75rem 0;
+}
+/*Helper*/
+.text-primary {
+  color: #c083e9;
+}
+
+/*Navbar*/
+#navbar {
+  
+  position: sticky;
+  top: 0;
+  background: #050505 ;
+  color: white;
+
+  display: flex;
+  justify-content: space-between ;
+
+  z-index: 1;
+  padding: 1rem;
+}
+#navbar ul{
+display: flex;
+align-items: center;
+list-style: none;
+
+}
+#navbar ul li a {
+  color: white;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+#navbar ul li a:hover{
+  background:  #c083e9;
+  border-radius: 5px;
+}
