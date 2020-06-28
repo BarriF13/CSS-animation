@@ -9,6 +9,7 @@
 }
 body{
   font-family: 'Lato', sans-serif;
+  line-height: 1.4;
 
 }
 a {
@@ -17,9 +18,35 @@ a {
 p {
   margin: 0.75rem 0;
 }
-/*Helper*/
+/*Helpers*/
 .text-primary {
   color: #c083e9;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  background:#c083e9;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+
+}
+.btn:hover{
+  background: #c7a4df;
+}
+.btn-dark {
+  background: #41314d;
+  color: white;
 }
 
 /*Navbar*/
@@ -50,4 +77,30 @@ list-style: none;
 #navbar ul li a:hover{
   background:  #c083e9;
   border-radius: 5px;
+}
+
+/*Showcase */
+#showcase {
+  background: #333 url('../img/cover.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+ 
+  height: 100%;
+  align-items: center;
+
+  padding: 0 2rem;
+
+  /* Overlay --very light grey*/
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-color: rgba(255,255,255,0.05);
+
 }
