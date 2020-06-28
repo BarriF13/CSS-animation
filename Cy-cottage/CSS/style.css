@@ -19,8 +19,15 @@ a {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   padding-bottom: 20px;
+}
+h4{
+  color: #fff;
+}
+.h4-b{
+  color: black;
 }
 p {
   margin: 10px 0;
