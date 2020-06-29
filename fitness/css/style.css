@@ -39,6 +39,10 @@ p {
   background: rgb(7, 6, 6);
   color: white;
 }
+.bg-primary{
+  background:#c083e9;
+  color: aliceblue;
+}
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -185,9 +189,32 @@ list-style: none;
 /*Client*/
 #clients .items{
   display: flex;
+ 
 }
 #clients .items img{
   display: block;
   margin: auto;
   width: 60%;
+
+}
+#contact{
+  display: flex;
+}
+#contact .map, #contact .contact-form{
+  flex: 1;
+}
+#contact .contact-form .form-group {
+  margin:  0.75rem;
+}
+#contact .contact-form label {
+display: block;
+}
+#contact .contact-form input,  
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+} 
+#contact .map {
+  background-image: url('../img/google-map.jpg');
 }
