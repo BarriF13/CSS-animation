@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 :root{
-  --page-1-color: rgb(145, 195, 238);
-  --page-2-color: rgb(111, 148, 108);
-  --page-3-color: rgb(221, 230, 109);
-  --page-4-color: rgb(73, 70, 62);
+  --page-1-color: rgb(145, 195, 238)url('./img/cat1.jpeg') no-repeat center center/cover;
+  --page-2-color: rgb(111, 148, 108) url('./img/cat2.jpeg') no-repeat center center/cover;
+  --page-3-color: rgb(221, 230, 109)url('./img/cat3.jpeg') no-repeat center center/cover;
+  --page-4-color: rgb(73, 70, 62)url('./img/cat4.jpeg') no-repeat center center/cover;
   --animate-speed:2s;
 
 }
@@ -16,7 +16,7 @@ body{
   overflow: hidden;
 }
 /* Page colors*/
-#page-1{background:var(--page-1-color);}
+#page-1{background:var(--page-1-color) }
 #page-2{background:var(--page-2-color);}
 #page-3{background:var(--page-3-color);}
 #page-4{background:var(--page-4-color);}
