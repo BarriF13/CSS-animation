@@ -61,3 +61,27 @@ color: darkcyan;
   background-color: darkcyan;
   color: rgb(62, 62, 92);
 }
+/*Page animation*/
+#page-1 h1{
+  transform: translateY(-1200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+#page-1 p{
+  transform: translateX(-1800px);
+  animation: para var(--animate-speed) forwards ease-in 2s;
+}
+/*animations*/
+@keyframes heading {
+  to
+  {
+    transform: translateY(0);
+  }
+  
+}
+@keyframes para {
+to 
+  {
+    transform: translateX(0);
+  }
+
+}
