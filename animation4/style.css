@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+:root{
+  --page-1-color: rgb(119, 127, 134);
+  --page-2-color: rgb(111, 148, 108);
+  --page-3-color: rgb(221, 230, 109);
+  --page-4-color: rgb(73, 70, 62);
+  --animate-speed:2s;
+
+}
+body{
+  font-family: 'MuseoModerno', cursive;
+  line-height: 1.4;
+  color: white;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+/* Page colors*/
+#page-1{background:var(--page-1-color);}
+#page-2{background:var(--page-2-color);}
+#page-3{background:var(--page-3-color);}
+#page-4{background:var(--page-4-color);}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+}
