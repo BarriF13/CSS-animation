@@ -68,7 +68,7 @@ color: darkcyan;
 }
 #page-1 p{
   transform: translateX(-1800px);
-  animation: para var(--animate-speed) forwards ease-in 2s;
+  animation: para var(--animate-speed) forwards ease-in 1s;
 }
 /*animations*/
 @keyframes heading {
