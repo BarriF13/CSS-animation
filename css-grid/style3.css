@@ -6,7 +6,7 @@
   border: 1px solid rgb(135, 252, 112);
   font: 24px bold;
   }
-.grid{
+/* .grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
-}
+} */
