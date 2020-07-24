@@ -8,5 +8,16 @@ font: 24px bold;
 }
 .grid{
   display: grid;
-  grid-template-columns: 200px 200px 200px ;
+  /* grid-template-columns: 200px auto 200px ; */
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-columns: repeat(3, 200px); */
+  /* grid-template-columns: repeat(3, auto); */
+  grid-template-columns: 1fr 2fr 2fr;
+/* gap between */
+  grid-gap: 1rem;
+}
+main{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1.5rem;
 }
