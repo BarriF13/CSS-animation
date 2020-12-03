@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #b34545;
-  --secondary-color: #36680e;
+  --primary-color: #b47979;
+  --secondary-color: #468a7e;
   --light-color: #e4e4e4;
   --dark-color: rgb(109, 108, 108);
   --max-width: 1100px;
@@ -29,6 +29,9 @@ a {
 ul {
   list-style: none;
 }
+p {
+  margin: 0.5rem 0;
+}
 img {
   width: 100%;
 }
@@ -49,7 +52,6 @@ h6 {
   padding: 0 2rem;
   overflow: hidden;
 }
-
 
 /* category */
 .category {
@@ -77,33 +79,39 @@ h6 {
   background: var(--dark-color);
   color: #fff;
   padding: 0.5rem 1.5rem;
-   border-radius: 15px;
+  border-radius: 15px;
 }
-.btn-light{background: var(--light-color) ;}
-.btn-primary{background: var(--primary-color) ;}
-.btn-secondary{background: var(--secondary-color) ;}
+.btn-light {
+  background: var(--light-color);
+}
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
 
-.btn:hover{
+.btn:hover {
   opacity: 0.9;
 }
-.btn-block{
+.btn-block {
   display: block;
   width: 100%;
   text-align: center;
 }
-.card{
+.card {
   background: #fff;
   padding: 1rem;
 }
-.bg-dark{
+.bg-dark {
   background: var(--dark-color);
   color: #fff;
 }
-.bg-primary{
+.bg-primary {
   background: var(--primary-color);
   color: #fff;
 }
-.bg-secondary{
+.bg-secondary {
   background: var(--secondary-color);
   color: #fff;
 }
@@ -118,18 +126,48 @@ h6 {
 .bg-secondary h1,
 .bg-secondary h2,
 .bg-secondary h3,
-.bg-secondary a{
+.bg-secondary a {
   color: #fff;
 }
 
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
 
-.py-1{ padding: 1.5rem 0}
-.py-2{ padding: 2rem 0}
-.py-3{ padding: 3rem 0}
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: rgb(66, 66, 66) dotted 1px;
+  width: 90%;
+}
+.list li a:hover {
+  color: var(--primary-color) !important;
+}
+/* inner page grid container*/
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
 
-.p-1{ padding: 1.5rem }
-.p-2{ padding: 2rem }
-.p-3{ padding: 3rem }
+}
+.page-container > *:first-child{
+  grid-row: 1 / span 3;
+}
 /* Navigation */
 #main-nav {
   background-color: white;
@@ -203,19 +241,51 @@ h6 {
 }
 
 /* HOME ARTICLES*/
-#home-articles .articles-container{
+#home-articles .articles-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
 #home-articles .articles-container > *:first-child,
-#home-articles .articles-container > *:last-child{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-gap: 1rem;
-align-items: center;
-grid-column: 1/span 2;
+#home-articles .articles-container > *:last-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  grid-column: 1 / span 2;
 }
-#home-articles .articles-container > *:last-child{
+#home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+/* Footer */
+#main-footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+#main-footer img {
+  width: 100px;
+  opacity: 0.8;
+}
+#main-footer a {
+  color: #fff;
+}
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+#main-footer .footer-container > *:last-child {
+  background: #444;
+  grid-column: 1 / span 4;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+#main-footer .footer-container input[type='email'] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#main-footer .footer-container input[type='submit'] {
+  width: 90%;
 }
